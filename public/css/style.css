@@ -5,7 +5,10 @@ body{
 
 * {
     font-family: 'Futura Std', sans-serif;
+    text-decoration: none;
+    color: thistle;
 }
+
 
 .info {
     text-align: center;
@@ -14,6 +17,7 @@ body{
     font-size: 4rem;
     z-index: 1;
 }
+
 
 .overlay{
     width: 100%;
