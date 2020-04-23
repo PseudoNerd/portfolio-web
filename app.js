@@ -1,10 +1,10 @@
 // dependencies
-var app = require("express")();
-
+const express = require("express");
+const app = express();
 
 //
 app.set("view engine", "ejs");
-
+app.use(express.static("public"));
 //routes
 
 app.get('/', (req,res) => {
