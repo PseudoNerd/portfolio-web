@@ -13,7 +13,7 @@ app.get('/', (req,res) => {
 
 
 // deployment
-
-app.listen(process.env.port , () => {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT , () => {
 });
 
