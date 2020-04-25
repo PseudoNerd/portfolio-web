@@ -3,7 +3,7 @@
     color: whitesmoke;
 }
 
-html,body,p,footer {
+html,body,p {
     font-family: 'Futura Std', sans-serif;
     margin: 0;
     height: 100%;
@@ -63,7 +63,7 @@ hr.seperator {
 }
 
 .page-footer {
-    margin-top: 10%;
+    top: 0;
 }
 .icons {
     align-items: center;
