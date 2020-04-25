@@ -1,6 +1,9 @@
 {
   "name": "personal",
   "version": "1.0.0",
+  "engines" : {
+    "node" : "8.10.0"
+  },
   "description": "Personal portfolio",
   "main": "app.js",
   "scripts": {
